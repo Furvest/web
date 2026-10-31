@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Логические операции</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>ПЕРЕД ПРОЧТЕНИЕМ ПОЖАЛУЙСТА ЗАРЕГИСТРИРУЙТЕСЬ</h1>
+        <form>
+            <label for="familia">Фамилия:</label><br>
+            <input type="text" id="familia" name="familia"><br>
+
+            <label for="imya">Имя:</label><br>
+            <input type="text" id="imya" name="imya"><br>
+
+            <label for="otchestvo">Отчество:</label><br>
+            <input type="text" id="otchestvo" name="otchestvo"><br>
+
+            <label>Пол:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Мужчина</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Женщина</label><br>
+
+            <label for="phone">Телефон:</label><br>
+            <select name="phoneCode">
+                <option>+7</option>
+                <option>+67</option>
+                <option>+1</option>
+            </select>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="passport">Серия-номер паспорта</label><br>
+            <input type="number" id="passport" name="passport"><br>
+
+            <label for="snils">СНИЛС:</label><br>
+            <input type="number" id="snils" name="snils"><br>
+
+            <label for="inn">ИНН:</label><br>
+            <input type="number" id="inn" name="inn"><br><br>
+
+            <input type="submit" value="Продать душу" class="btn">
+        </form>
+        
+        <h2 id="INTRODUCTION">Введение</h2>
+        <img src="img/hello.png" alt="картинка здравствуйте" width="200" height="50">
+        <p>
+            <u>Здравствуйте.</u> Данная статья предназначена для тех, кто желает 
+            немного погрузиться в структуру <b>логических операций</b>. 
+            Перед началом самой статьи хочу немного обратить внимание на то,
+            что все операции будут проводиться над <i>единицами</i> и <i>ноликами</i>.
+            Время от времени называться <i>правдой/ложью</i> или <i>да/нет</i> соответственно.
+        </p>
+
+        <h2> Оглавление </h2>
+        <ol>
+            <li><a href="#INTRODUCTION">Введение</a></li>
+            <li><a href="not.html">Логическое НЕ</a></li>
+            <li><a href="and.html">Логическое И</a></li>
+            <li><a href="or.html">Логическое ИЛИ</a></li>
+        </ol>
+
+        <h2>Задание 4</h2>
+        <p> Если вам вдруг понадобиться таблица продуктов, вы можете найти её ниже:</p>
+        <table class="product">
+            <tr>
+                <th>Продукт</th>
+                <th>Белки гр.</th>
+                <th>Жиры гр.</th>
+                <th>Углеводы гр.</th>
+            </tr>
+            <tr>
+                <td>Абрикосы</td>
+                <td>0.9</td>
+                <td>0.0</td>
+                <td>10.5</td>
+            </tr>
+            <tr>
+                <td>Айва</td>
+                <td>0.6</td>
+                <td>0.0</td>
+                <td>8.9</td>
+            </tr>
+            <tr>
+                <td>Алыча</td>
+                <td>0.2</td>
+                <td>0.0</td>
+                <td>7.4</td>
+            </tr>
+            <tr>
+                <td>Ананас</td>
+                <td>0.4</td>
+                <td>0.0</td>
+                <td>11.8</td>
+            </tr>
+            <tr>
+                <td>Апельсин</td>
+                <td>0.9</td>
+                <td>0.0</td>
+                <td>8.4</td>
+            </tr>
+        </table>
+        <p>
+            К слову, к этому формату приведены все таблицы в данной статье. 
+            Так что эту полосатую табличку вы сможете увидеть не один раз!
+            (ну не прям эту с продуктами, а с другими данными)
+        </p>
+
+        <h2>Задание 6</h2>
+        <p> Если вам вдруг понадобиться таблица с данными о погоде, вы можете найти её ниже:</p>
+        <table class="weather">
+            <tr>
+                <th>31.08</th> 
+                <th>01.09</th>
+                <th>02.09</th>
+            </tr>
+            <tr>
+                <td><img src="img/sun.png" alt="Пасмурно"></td>
+                <td><img src="img/snow.png" alt="Снег"></td>
+                <td><img src="img/wind.png" alt="Ветрено"></td>
+            </tr>
+            <tr>
+                <td>+20°</td>
+                <td>-3°</td>
+                <td>-10°</td>
+            </tr>
+        </table>
+    </body>
+</html>

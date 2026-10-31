@@ -1,0 +1,131 @@
+body {
+    background-color: #f0f8ff;
+    background-image: url("img/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+/* Ссылки */
+a:link {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:visited {
+    color: #663399;
+    text-decoration: none;
+}
+a:active {
+    color: #ff0000;
+    text-decoration: underline;
+}
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Абзацы */
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+p::first-letter {
+    font-size: 2em;
+    color: #cc0000;
+}
+
+/* Кнопки */
+.btn {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-box-shadow: 0px 1px 8px #666666;
+  -moz-box-shadow: 0px 1px 8px #666666;
+  box-shadow: 0px 1px 8px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  background: #edb6ed;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #c280c2;
+  text-decoration: none;
+}
+
+
+/* Украшаем все таблицы */
+table {
+    border-collapse: collapse;
+    width: 200px;
+    margin: 20px 0;
+}
+table tr:nth-child(even) {
+    background-color: rgb(253, 233, 217);
+}
+table tr:nth-child(odd) {
+    background-color: rgb(251, 212, 180);
+}
+table tr:first-child {
+    background-color: rgb(79, 129, 189);
+    color: white;
+}
+table th,
+table td {
+    border: 1px solid #999;
+    padding: 6px;
+    text-align: left;
+}
+
+
+/* Доукрашение таблицы продуктов*/
+table.product td:first-child {
+    text-align: left;
+    font-weight: bold;
+    background-color: rgb(184, 204, 228);
+}
+
+
+/* Украшение таблицы погоды */
+table.weather {
+    border-collapse: collapse;
+    table-layout: fixed;      
+    width: 300px;             
+    margin: 20px;       
+    background-color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+table.weather th,
+table.weather td {
+    width: 100px;
+    padding: 5px 0;
+    border: none;             
+    text-align: center;
+    background-color: #ffffff;
+}
+
+table.weather th {
+    background-color: rgb(0, 151, 185); 
+    color: #ffffff;
+    font-weight: normal;
+    border-right: 3px solid #ffffff; 
+    padding: 2px 0;
+}
+
+table.weather th:last-child {
+    border-right: none;
+}
+
+table.weather td img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
